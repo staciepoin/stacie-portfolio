@@ -56,6 +56,10 @@ a {
   color: #fff;
 }
 
+.menu li a:hover {
+  background: #80CBC4;
+}
+
 .logo a {
   color: #fff;
   height: 60px;
