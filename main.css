@@ -21,8 +21,8 @@ a {
   line-height: 60px;
   height: 60px;
   font-weight: 400;
-  box-shadow: 0px 1px 3px 0px #59899e;
-  background: #93c4d3;
+  box-shadow: 0px 1px 3px 0px #7986CB;
+  background: #9FA8DA;
   left: 0;
   right: 0;
   top: 0;
@@ -52,6 +52,7 @@ a {
   padding: 0 20px;
   display: block;
   letter-spacing: 1px;
+  text-decoration: none;
   color: #fff;
 }
 
