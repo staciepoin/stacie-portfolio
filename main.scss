@@ -9,6 +9,7 @@ $header-height: 60px;
 $header-secondary: #59899e;
 $header-primary: #93c4d3;
 $center-h: 0 auto;
+$logo: 700 55px 'Quicksand', sans-serif;
 
 
 * {box-sizing: border-box}
@@ -68,6 +69,7 @@ a {background: transparent;}
   float: left;
   margin-right: 30px;
   width: 100px;
+  font: $logo;
 }
 
 .logo {
