@@ -22,7 +22,10 @@ body {
   color: $body-color;
 }
 
-a {background: transparent;}
+a {
+  background: transparent;
+  text-decoration: none;
+}
 
 #header {
   line-height: $header-height;
@@ -35,6 +38,7 @@ a {background: transparent;}
   top: 0;
   z-index: 1000;
   position: fixed;
+  text-transform: uppercase;
 }
 
 #header .wrap {
@@ -59,7 +63,6 @@ a {background: transparent;}
   display: block;
   letter-spacing: 1px;
   text-decoration: none;
-  text-transform: uppercase;
   color: #fff;
 }
 
