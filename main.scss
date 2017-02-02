@@ -8,6 +8,7 @@ $body-color: #333;
 $header-height: 60px;
 $header-secondary: #00897b;
 $header-primary: #26a69a;
+$header-hover: #80CBC4;
 $center-h: 0 auto;
 $logo: 700 45px 'Quicksand', sans-serif;
 $gray: #bbb;
@@ -66,6 +67,10 @@ a {
   letter-spacing: 1px;
   text-decoration: none;
   color: #fff;
+}
+
+.menu li a:hover {
+  background: $header-hover;
 }
 
 .logo a {
