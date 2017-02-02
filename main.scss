@@ -11,6 +11,7 @@ $header-primary: #26a69a;
 $center-h: 0 auto;
 $logo: 700 45px 'Quicksand', sans-serif;
 $gray: #bbb;
+$scrollbar: #999;
 
 
 * {box-sizing: border-box}
@@ -96,4 +97,18 @@ a {
   line-height: 1.4;
   text-align: center;
   position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #eee;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: $scrollbar;
 }
