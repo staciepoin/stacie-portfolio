@@ -69,11 +69,12 @@ a {
 .logo a {
   color: #fff;
   height: $header-height;
+  line-height: $header-height;
   margin-right: 30px;
   width: 100px;
   font: $logo;
 }
 
 .logo {
-  display: block;
+  float: left;
 }
