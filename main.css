@@ -60,6 +60,9 @@ a {
   background: #424242;
 }
 
+.menu li a.active {
+	color: #FFEB3B;
+}
 .logo a {
   color: #fff;
   height: 60px;

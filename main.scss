@@ -13,6 +13,7 @@ $center-h: 0 auto;
 $logo: 40px 'Monoton', cursive;
 $gray: #bbb;
 $scrollbar: #999;
+$active-link: #FFEB3B;
 
 
 * {box-sizing: border-box}
@@ -71,6 +72,10 @@ a {
 
 .menu li a:hover {
   background: $header-hover;
+}
+
+.menu li a.active {
+	color: $active-link;
 }
 
 .logo a {
