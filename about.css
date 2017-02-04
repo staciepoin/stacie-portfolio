@@ -1,0 +1,13 @@
+header {
+	text-align: center;
+	position: relative;
+	border-bottom: 1px solid #090909;
+	box-shadow: 0 1px 3px 0 #090909;
+	background: #222 url('header2.png');
+	background-position: 0 -5px;
+	padding: 50px 20px;
+	margin-bottom: 20px;
+	margin-top: 60px;
+	height: 300px;
+	background-size: 80px;
+}

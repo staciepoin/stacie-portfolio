@@ -2,15 +2,16 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
 body {
   line-height: 20px;
   font: 13px "Open Sans", sans-serif;
-  color: #333;
-	background: #111;
+  color: #fff;
+  background: #111;
 }
 
 a {
@@ -62,8 +63,9 @@ a {
 }
 
 .menu li a.active {
-	color: #FFEB3B;
+  color: #FFEB3B;
 }
+
 .logo a {
   color: #fff;
   height: 60px;
@@ -75,24 +77,6 @@ a {
 
 .logo {
   float: left;
-}
-
-#footer {
-  border-top: 1px solid #bbb;
-  position: absolute;
-  min-height: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 720px;
-  margin: 0 auto -1px;
-}
-
-#footer .wrap {
-  margin: 30px auto;
-  line-height: 1.4;
-  text-align: center;
-  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -107,4 +91,63 @@ a {
 ::-webkit-scrollbar-thumb {
   border-radius: 0;
   background: #999;
+}
+
+
+/*body*/
+
+#body-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  background: red;
+  margin-top: 60px;
+}
+
+.wide-left {
+  padding: 0 20px 100px 0;
+  width: calc(100% / 1.5);
+  float: left;
+  background: red;
+}
+
+.wide-left h1 {
+  text-align: center;
+  padding: 1em 0;
+}
+
+h1 {
+  line-height: 1.1;
+  font: 700 35px 'Open Sans', sans-serif;
+  margin-bottom: 45px;
+}
+
+.container {
+  padding: 20px;
+  position: relative;
+  background: #333;
+  margin: 0 0 20px 0;
+  overflow: hidden;
+}
+
+h2 {
+  font: 600 25px 'Open Sans', sans-serif;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.container h2 {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.container p {
+  color: #999;
+	margin-bottom: 15px;
+}
+
+.contact {
+	height: 375px;
 }
